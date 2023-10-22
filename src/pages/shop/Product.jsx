@@ -7,7 +7,13 @@ function Product(props) {
   const productImage = props.data.productImage;
 
   return (
-    <div>{productName} </div>
+    <div className='product'>
+      <img src={productImage}/>
+      <div className='description'>
+        <b><p>{productName}</p></b>
+        <p>$ {price}</p>
+        </div>
+    </div>
   )
 }
 

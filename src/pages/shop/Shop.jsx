@@ -1,7 +1,8 @@
 import React from 'react'
 import {PRODUCTS} from '../../Products';
 import Product from '../shop/Product.jsx';
-import
+import './Shop.css';
+
 
 function Shop() {
   return (
