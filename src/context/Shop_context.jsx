@@ -4,7 +4,7 @@ export const ShopContext=createContext(null)
 
 const getDefaultCart = () =>{
   let cart={}
-  for (let i=0; i < PRODUCTS.length;i++)
+  for (let i=0; i < PRODUCTS.length+1;i++)
   {
     cart[i]=0;
   }
