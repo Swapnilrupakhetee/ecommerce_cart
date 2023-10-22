@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { createContext } from 'react'
+export const ShopContext=createContext(null)
 
-function Shop_context() {
+function Shop_context(props) {
   return (
-    <div>Shop-context</div>
+    <ShopContext.Provider>
+      {props.children}
+
+    </ShopContext.Provider>
+    
   )
 }
 
