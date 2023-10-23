@@ -1,7 +1,7 @@
 import React from 'react'
 import {PRODUCTS} from '../../Products';
 import Product from '../shop/Product.jsx';
-import './Shop.css'
+import './Shop.css';
 
 
 function Shop() {
