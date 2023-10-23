@@ -1,5 +1,5 @@
-import React, { createContext } from 'react'
-import { PRODUCTS } from '../Products'
+import React, { createContext } from 'react';
+import { PRODUCTS } from '../Products';
 export const ShopContext=createContext(null)
 
 const getDefaultCart = () =>{
