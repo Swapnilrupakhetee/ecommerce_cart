@@ -32,4 +32,4 @@ function Shop_context(props) {
   )
 }
 
-export default Shop-context
+export default Shop-context;
